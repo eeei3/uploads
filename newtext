@@ -1,0 +1,26 @@
+[    0.000000] Command line: BOOT_IMAGE=/boot/vmlinuz-6.1.67-gentoo root=UUID=ec47dc53-dd64-42bb-ba15-0d5f74a5d426 ro i915.enable_guc=3
+[    0.045531] Kernel command line: BOOT_IMAGE=/boot/vmlinuz-6.1.67-gentoo root=UUID=ec47dc53-dd64-42bb-ba15-0d5f74a5d426 ro i915.enable_guc=3
+[    0.045551] Setting dangerous option i915.enable_guc - tainting kernel
+[    0.874721] i915 0000:00:02.0: [drm] VT-d active for gfx access
+[    0.874723] i915 0000:00:02.0: vgaarb: deactivate vga console
+[    0.874749] i915 0000:00:02.0: [drm] Transparent Hugepage support is recommended for optimal performance on this platform!
+[    0.875057] i915 0000:00:02.0: vgaarb: changed VGA decodes: olddecodes=io+mem,decodes=io+mem:owns=io+mem
+[    0.875085] Loading firmware: i915/adlp_dmc_ver2_16.bin
+[    0.875092] i915 0000:00:02.0: Direct firmware load for i915/adlp_dmc_ver2_16.bin failed with error -2
+[    0.875094] i915 0000:00:02.0: [drm] Failed to load DMC firmware i915/adlp_dmc_ver2_16.bin. Disabling runtime power management.
+[    0.875096] i915 0000:00:02.0: [drm] DMC firmware homepage: https://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git/tree/i915
+[    0.889419] Loading firmware: i915/adlp_guc_70.bin
+[    0.889425] Loading firmware: i915/adlp_guc_70.1.1.bin
+[    0.889428] Loading firmware: i915/adlp_guc_69.0.3.bin
+[    0.889431] i915 0000:00:02.0: GuC firmware i915/adlp_guc_70.bin: fetch failed with error -2
+[    0.889433] i915 0000:00:02.0: [drm] GuC firmware(s) can be downloaded from https://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git/tree/i915
+[    0.990090] i915 0000:00:02.0: [drm] GuC firmware i915/adlp_guc_70.bin version 0.0.0
+[    0.990162] i915 0000:00:02.0: GuC initialization failed -2
+[    0.990163] i915 0000:00:02.0: Enabling uc failed (-5)
+[    0.990164] i915 0000:00:02.0: Failed to initialize GPU, declaring it wedged!
+[    0.990530] i915 0000:00:02.0: [drm:add_taint_for_CI] CI tainted:0x9 by intel_gt_init+0xaa/0x300
+[    2.451457] [drm] Initialized i915 1.6.0 20201103 for 0000:00:02.0 on minor 0
+[    2.455150] fbcon: i915drmfb (fb0) is primary device
+[    2.482526] snd_hda_intel 0000:00:1f.3: bound 0000:00:02.0 (ops i915_audio_component_bind_ops)
+[    2.482549] mei_hdcp 0000:00:16.0-b638ab7e-94e2-4ea2-a552-d1c54b627f04: bound 0000:00:02.0 (ops i915_hdcp_component_ops)
+[    2.507561] i915 0000:00:02.0: [drm] fb0: i915drmfb frame buffer device
